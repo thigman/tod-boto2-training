@@ -1,0 +1,22 @@
+Bucket todbucket-a6dbb1bd-bc46-4878-bf68-9442e32c8b55 created.
+Bucket List:
+[
+    "todbucket-682084e3-64f3-49c9-968d-ee1da4604632",
+    "todbucket-89b96ee9-80f1-441b-80e5-df3497e8eba0",
+    "todbucket-96dc7af5-b687-4429-89b2-6365f9599ca3",
+    "todbucket-9f17c2bd-3ded-4d67-ad6e-ea1b1cb511e8",
+    "todbucket-a6dbb1bd-bc46-4878-bf68-9442e32c8b55",
+    "todbucket-b756774e-7c30-4daf-814d-0ef0f7464113",
+    "todbucket-dc516119-879c-4ef9-a566-94762fd616ec"
+]
+ERROR: Could not delet s3 bucket.
+New Bucket List:
+[
+    "todbucket-682084e3-64f3-49c9-968d-ee1da4604632",
+    "todbucket-89b96ee9-80f1-441b-80e5-df3497e8eba0",
+    "todbucket-96dc7af5-b687-4429-89b2-6365f9599ca3",
+    "todbucket-9f17c2bd-3ded-4d67-ad6e-ea1b1cb511e8",
+    "todbucket-a6dbb1bd-bc46-4878-bf68-9442e32c8b55",
+    "todbucket-b756774e-7c30-4daf-814d-0ef0f7464113",
+    "todbucket-dc516119-879c-4ef9-a566-94762fd616ec"
+]
