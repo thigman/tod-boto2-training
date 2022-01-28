@@ -6,8 +6,7 @@
 trigger:
 - main
 
-pool:
-  vmImage: ubuntu-latest
+pool: tod_local_ado_agent
 
 steps:
 - script: echo Hello, world!
