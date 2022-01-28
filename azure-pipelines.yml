@@ -12,7 +12,8 @@ steps:
 - script: echo Running script to add s3 bucket and remove first s3 bucket.
   displayName: 'Announce what we are doing'
 
-- script: cd C:\Users\todhi\OneDrive\work\python\boto\boto3\todboto3\
-  script: launch_boto_s3_create.ps1
-  script: cat output.log
+- script: |
+        cd C:\Users\todhi\OneDrive\work\python\boto\boto3\todboto3\
+        launch_boto_s3_create.ps1
+        cat output.log
 #   displayName: 'Powershell script to call python boto script'
