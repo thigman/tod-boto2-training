@@ -41,12 +41,15 @@ def get_list_buckets():
         return boto_buckets
 
 def remove_first_bucket(bucket_list):
+
     try:
         boto_session= boto3.session.Session()
         boto_s3_client = boto_session.client('s3')
         boto_s3_client.delete_bucket(Bucket=bucket_list[0])
+        
     except:
         print("ERROR: Could not delet s3 bucket.")
+        return
     
     else:    
         print("Bucket " + bucket_list[0] + " deleted.")
